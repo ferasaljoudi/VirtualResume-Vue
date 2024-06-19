@@ -1,7 +1,7 @@
 const { initializeApp, cert } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
 
-const serviceAccount = require("./feras-resume-vue-firebase-adminsdk-l6sj5-99ab8680d8.json");
+const serviceAccount = require("./feras-resume-vue-firebase.json");
 
 initializeApp({
   credential: cert(serviceAccount),

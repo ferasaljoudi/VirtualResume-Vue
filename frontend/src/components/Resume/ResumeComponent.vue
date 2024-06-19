@@ -20,7 +20,7 @@
             <b><SectionDescription :list="[{ text:'Technologies used: Microsoft Office, Project management, Email communication platforms, Electrical equipment handling.'}]" isStar /></b>
         </div>
         <div class="section" :class="{ 'fade-in': Animation3 }">
-            <SectionTitle title="Store Manager" location="YM Inc Urban Planet, Regina" date="Nov. 2018-Dec. 2021" />
+            <SectionTitle title="Store Manager" location="YM Inc Urban Planet, Regina" date="Nov. 2018-Dec. 2022" />
             <SectionDescription :list="[{ text:'Managing schedules and making sure the store needs are covered.'}]" />
             <SectionDescription :list="[{ text:'Making monthly sales targets.'}]" />
             <SectionDescription :list="[{ text:'Analyzing the business based on the top sellers in the store and the company.'}]" />
