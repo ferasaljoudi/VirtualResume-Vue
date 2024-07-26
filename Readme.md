@@ -46,8 +46,9 @@ The frontend is built using Vue, while the backend uses JavaScript to fetch visi
 - <b>Dynamic Content:</b> Firebase integration allows for dynamically updating content.
 - <b>Global State Management:</b> Enables users to switch between dark mode and light mode.
 
+<br>
 <div align = "center">
 
-### <a href="https://ferasaljoudi.csproject.org/" title="Feras Aljoudi - Virtual Resume">Virtual Resume</a>
+<a href="https://ferasaljoudi.csproject.org/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Resumes/vue.svg" alt="Vue Resume"></a>
 
 </div>
