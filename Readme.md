@@ -104,6 +104,6 @@ The frontend is built using Vue, while the backend uses JavaScript to fetch visi
 <br>
 <div align = "center">
 
-<a href="https://ferasaljoudi.csproject.org/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Resumes/vue.svg" alt="Vue Resume"></a>
+<a href="https://resume.aljoudi.ca/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Resumes/vue.svg" alt="Vue Resume"></a>
 
 </div>
