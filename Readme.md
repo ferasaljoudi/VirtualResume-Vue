@@ -5,7 +5,7 @@
 
 <div align = "center">
 
-This project contains my _<a href="https://ferasaljoudi.csproject.org/" title="Feras Aljoudi - Virtual Resume" style="text-decoration: underline;">Virtual Resume</a>_ version_2. It aims to demonstrate my skills and knowledge in Vue by creating a virtual resume.
+This project contains my _<a href="https://resume.aljoudi.ca/" title="Feras Aljoudi - Virtual Resume" style="text-decoration: underline;">Virtual Resume</a>_ version_2. It aims to demonstrate my skills and knowledge in Vue by creating a virtual resume.
 
 </div>
 
