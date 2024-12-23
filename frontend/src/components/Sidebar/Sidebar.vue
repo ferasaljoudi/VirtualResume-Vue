@@ -114,49 +114,49 @@ function handleScroll() {
     if (window.scrollY > threshold) {
         SidebarAnimation.value = true;
     }
-    if (window.scrollY > 650) {
+    if (window.scrollY > 550) {
         C_Animation.value = true;
     }
-    if (window.scrollY > 800) {
+    if (window.scrollY > 620) {
         JavaAnimation.value = true;
     }
-    if (window.scrollY > 950) {
+    if (window.scrollY > 690) {
         PythonAnimation.value = true;
     }
-    if (window.scrollY > 1000) {
+    if (window.scrollY > 760) {
         JavascriptAnimation.value = true;
     }
-    if (window.scrollY > 1050) {
+    if (window.scrollY > 830) {
         PHPAnimation.value = true;
     }
-    if (window.scrollY > 1125) {
+    if (window.scrollY > 900) {
         MySQL_SQL_Animation.value = true;
     }
-    if (window.scrollY > 1200) {
+    if (window.scrollY > 970) {
         AssemblyAnimation.value = true;
     }
-    if (window.scrollY > 1275) {
+    if (window.scrollY > 1045) {
         HTML_CSSAnimation.value = true;
     }
-    if (window.scrollY > 1350) {
+    if (window.scrollY > 1115) {
         ReactAnimation.value = true;
     }
-    if (window.scrollY > 1400) {
+    if (window.scrollY > 1190) {
         VueAnimation.value = true;
     }
-    if (window.scrollY > 1500) {
+    if (window.scrollY > 1260) {
         WordPress_FigmaAnimation.value = true;
     }
-    if (window.scrollY > 1600) {
+    if (window.scrollY > 1330) {
         VHDL_Animation.value = true;
     }
-    if (window.scrollY > 1770) {
+    if (window.scrollY > 1515) {
         ManagementAndLeadershipAnimation.value = true;
     }
-    if (window.scrollY > 1850) {
+    if (window.scrollY > 1585) {
         CommunicationAnimation.value = true;
     }
-    if (window.scrollY > 1930) {
+    if (window.scrollY > 1655) {
         ProblemSolvingAnimation.value = true;
     }
 }
