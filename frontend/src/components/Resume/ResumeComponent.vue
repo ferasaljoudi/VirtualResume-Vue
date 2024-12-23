@@ -40,56 +40,55 @@
 
         <SectionHeader :iconSrc="'fa-solid fa-diagram-project'" titleText="PROJECTS" />
         <div class="section" :class="{ 'fade-in': Animation5 }">
-            <SectionTitle title="Drowsiness Detection" location="Machine Learning and Image Processing (ENSE412 class)" date="Apr. 2024" />
-            <SectionDescription :list="[{ text:'Developed a Driver Drowsiness Detection model using Python and TensorFlow, utilizing a Convolutional Neural Network (CNN) with a pre-trained VGG16 model.'}]" />
-            <SectionDescription :list="[{ text:'Employed image preprocessing techniques to resize and normalize facial images sourced from a Kaggle dataset.'}]" />
-            <SectionDescription :list="[{ text:'Explored other multiple machine learning algorithms, including Random Forest, K-Nearest Neighbors (KNN), and Decision Trees.'}]" />
-            <SectionDescription :list="[{ text:'Integrated the CNN model into a Flask-based web application to demonstrate real-time image analysis and prediction capabilities.'}]" />
-            <SectionDescription :list="[{ text:'Achieved high prediction accuracy, validating the model with both test images and external datasets.'}]" />
-            <SectionDescription :list="[{ text:'Documented the project development process, model training, and performance analysis in a detailed Jupyter notebook.'}]" />
-            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'DriverDrowsinessDetection', url: 'https://github.com/ferasaljoudi/DriverDrowsinessDetection' }]" isStar /></b>
+            <SectionTitle title="IFS DriverAlert, Machine Learning" location="Graduation Project" date="Apr. 2025" />
+            <SectionDescription :list="[{ text:'Developed a real-time driver drowsiness detection system using Python, OpenCV, MediaPipe, and a trained CNN model with TensorFlow/Keras.'}]" />
+            <SectionDescription :list="[{ text:'Optimized the system for deployment on Raspberry Pi 5, ensuring efficient performance and low latency.'}]" />
+            <SectionDescription :list="[{ text:'Integrated hardware components including GPIO-connected switches, USB stereo speakers, and camera for seamless system functionality.'}]" />
+            <SectionDescription :list="[{ text:'Designed a privacy-focused offline solution, processing data in real-time without storing or transmitting user information.'}]" />
+            <SectionDescription :list="[{ text:'Built the system using open-source tools and libraries, showcasing expertise in hardware-software integration, embedded systems, and real-time image processing.'}]" />
+            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'Capstone', url: 'https://github.com/ferasaljoudi/Capstone' }]" isStar /></b>
         </div>
         <div class="section" :class="{ 'fade-in': Animation6 }">
-            <SectionTitle title="Aljoudi Parking System" location="STM32-Based Smart Parking Management System (ENEL351 class)" date="Mar. 2024" />
-            <SectionDescription :list="[{ text:'Engineered a smart parking solution using the STM32F103RB microcontroller to optimize parking space usage and enhance vehicle safety within limited-space environments.'}]" />
-            <SectionDescription :list="[{ text:'Implemented a user interface with an LCD display to provide real-time parking availability, the rate based on vehicle weight, and fire alarm alerts.'}]" />
-            <SectionDescription :list="[{ text:'Incorporated various sensors including pressure, infrared (IR), and gas sensors to manage parking operations and ensure safety.'}]" />
-            <SectionDescription :list="[{ text:'Developed mechanisms for automated entrance and exit gate operation using servo motors controlled via pressure and IR sensors.'}]" />
-            <SectionDescription :list="[{ text:'Designed and implemented a fire alarm system using a gas sensor and buzzer to enhance emergency responsiveness.'}]" />
-            <SectionDescription :list="[{ text:'Programmed the entire system in C, focusing on modular design for easy maintenance and scalability.'}]" />
-            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'AljoudiParkingSystem', url: 'https://github.com/ferasaljoudi/AljoudiParkingSystem' }]" isStar /></b>
+            <SectionTitle title="FIA-Local Service Finder" location="ENSE375 class" date="Jul. 2024" />
+            <SectionDescription :list="[{ text:'Collaborated with a team to develop a secure service platform using Java (Spring Boot) for backend and React.js for frontend, enabling users to list, search, and manage services.'}]" />
+            <SectionDescription :list="[{ text:'Implemented user authentication and data management to ensure secure login, registration, and profile updates.'}]" />
+            <SectionDescription :list="[{ text:'Designed and integrated responsive user interfaces for seamless service discovery, focusing on usability and accessibility.'}]" />
+            <SectionDescription :list="[{ text:'Conducted comprehensive testing, including boundary value analysis and integration testing, to ensure system reliability and robust performance.'}]" />
+            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'FIA-LocalServiceFinder', url: 'https://github.com/ferasaljoudi/FIA-Local-Service-Finder' }]" isStar /></b>
         </div>
         <div class="section" :class="{ 'fade-in': Animation7 }">
-            <SectionTitle title="Simon Game" location="Embedded Systems and Interactive Game Design (ENSE352 class)" date="Nov. 2023" />
-            <SectionDescription :list="[{ text:'Engineered a Simon Game using C on Keil uVision, incorporating an STM32F103 Nucleo Board for hardware interfacing.'}]" />
-            <SectionDescription :list="[{ text:'Designed game logic to run 10 levels of increasing difficulty, with visual feedback provided through a system of 4 LEDs and a separate fail indicator LED. Implemented input handling via push buttons with debounced inputs for accurate player interaction.'}]" />
-            <SectionDescription :list="[{ text:'Utilized classic Cylon Eye Scanner as a dynamic start sequence and an innovative binary display to indicate level progression or failure.'}]" />
+            <SectionTitle title="Top Languages Service" location="Personal" date="Jun. 2024" />
+            <SectionDescription :list="[{ text:'Developed a web service providing API endpoints to generate visual language usage insights for GitHub users.'}]" />
+            <SectionDescription :list="[{ text:'Enabled customization options, including format, title color, and background color, for personalized output.'}]" />
+            <SectionDescription :list="[{ text:'Designed the service for public use, supporting data from both forked and original repositories for comprehensive analysis.'}]" />
+            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'TopLanguages', url: 'https://github.com/ferasaljoudi/TopLanguages' }]" isStar /></b>
+        </div>
+        <div class="section" :class="{ 'fade-in': Animation8 }">
+            <SectionTitle title="STM32-Based Smart Parking Management System" location="ENEL351 class" date="Mar. 2024" />
+            <SectionDescription :list="[{ text:'Engineered a smart parking solution using STM32 microcontroller, featuring real-time parking availability display, automated gate operation, and fire alarm.'}]" />
+            <SectionDescription :list="[{ text:'Integrated various sensors including pressure, infrared, and gas sensors to manage parking operations efficiently.'}]" />
+            <SectionDescription :list="[{ text:'Incorporated servo motors and various sensors including pressure, infrared (IR), and gas sensors to manage parking operations.'}]" />
+            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'AljoudiParkingSystem', url: 'https://github.com/ferasaljoudi/AljoudiParkingSystem' }]" isStar /></b>
+        </div>
+        <div class="section" :class="{ 'fade-in': Animation9 }">
+            <SectionTitle title="Embedded Systems and Interactive Game Design" location="ENSE352 class" date="Nov. 2023" />
+            <SectionDescription :list="[{ text:'Engineered a Simon Game using C with an STM32 Nucleo Board for hardware interfacing, featuring 10 levels of increasing difficulty, input handling, and visual feedback.'}]" />
+            <SectionDescription :list="[{ text:'Utilized classic ”Cylon Eye Scanner” start sequence and level progress/failure indicators.'}]" />
             <SectionDescription :list="[{ text:'Applied time constraints to user inputs for enhanced gameplay challenge and utilized an isolated resistor for LED current regulation.'}]" />
             <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'SimonGame', url: 'https://github.com/ferasaljoudi/SimonGame' }]" isStar /></b>
         </div>
-        <div class="section" :class="{ 'fade-in': Animation8 }">
-            <SectionTitle title="Classes Schedule" location="FPGA-Based Digital Scheduling and Display System (ENEL384 class)" date="Nov. 2023" />
-            <SectionDescription :list="[{ text:'Conceptualized and developed a synchronous digital circuit for class scheduling on a BASYS-3 FPGA board.'}]" />
-            <SectionDescription :list="[{ text:'Programmed using VHDL in Vivado to control display logic, including class, lab, seminar, midterm, and final schedules with user-interactive buttons and switches.'}]" />
-            <SectionDescription :list="[{ text:'Engineered a multiplexing solution to display text and numbers across four 7-segment displays, achieving seamless visual output through rapid switching (0.0025 seconds interval).'}]" />
-            <SectionDescription :list="[{ text:'Implemented LED indicators for class selection and a weekly schedule display, enhancing user sectionName and interface intuitiveness.'}]" />
-            <SectionDescription :list="[{ text:'Demonstrated proficiency in digital system design and the practical application of hardware description languages and FPGA programming.'}]" />
+        <div class="section" :class="{ 'fade-in': Animation10 }">
+            <SectionTitle title="FPGA-Based Digital Scheduling and Display System" location="ENEL384 class" date="Nov. 2023" />
+            <SectionDescription :list="[{ text:'Developed a class scheduling digital circuit on a BASYS-3 FPGA board using VHDL in Vivado, featuring multiplexed display logic for rapid switching.'}]" />
+            <SectionDescription :list="[{ text:'Integrated LED indicators for class selection and weekly schedule display to enhance user experience.'}]" />
+            <SectionDescription :list="[{ text:'Demonstrated proficiency in digital system design and FPGA programming, showcasing practical application of hardware description languages.'}]" />
             <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'ClassesSchedule', url: 'https://github.com/ferasaljoudi/ClassesSchedule' }]" isStar /></b>
-        </div>
-        <div class="section" :class="{ 'fade-in': Animation9 }">
-            <SectionTitle title="SKDCA Website" location="Team Project for Saskatchewan Career Development Association (SKCDA)" date="May 2023" />
-            <SectionDescription :list="[{ text:'Collaborated with a team to design and launch a WordPress-based website aimed at supporting Career Development Practitioners across Saskatchewan.'}]" />
-            <SectionDescription :list="[{ text:'Engaged in the full project lifecycle from conceptualization to deployment, ensuring the site provides resources, advocacy, and networking opportunities for professional development.'}]" />
-            <SectionDescription :list="[{ text:'Integrated features for member engagement, including forums, event calendars, and professional development modules, leveraging WordPress’s versatile platform.'}]" />
-            <SectionDescription :list="[{ text:'Coordinated with cross-functional teams to gather requirements, align objectives, and deliver a user-centric sectionName that aligns with SKDCA’s mission and values.'}]" />
-            <SectionDescription :list="[{ text:'Contributed to the creation of a content strategy that addresses the needs of diverse stakeholders within the career development field, enhancing the association’s digital presence.'}]" />
-            <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'SKCDA Project', url: 'https://github.com/ferasaljoudi/SKCDA---Webpage---Design' }]" isStar /></b>
         </div>
 
         <SectionHeader :iconSrc="'fa-solid fa-graduation-cap'" titleText="EDUCATION" />
-        <div class="section" :class="{ 'fade-in': Animation10 }">
-            <SectionTitle title="University of Regina" date="Present" />
-            <SectionDescription :list="[{ text:'B.A.S. in Software System Engineering'}]" />
+        <div class="section" :class="{ 'fade-in': Animation11 }">
+            <SectionTitle title="University of Regina, Degree" date="Sep. 2018 - Apr. 2025" />
+            <SectionDescription :list="[{ text:'Bachelor of Applied Science in Software Systems Engineering'}]" />
         </div>
     </div>
 </template>
@@ -110,6 +109,7 @@ const Animation7 = ref(false);
 const Animation8 = ref(false);
 const Animation9 = ref(false);
 const Animation10 = ref(false);
+const Animation11 = ref(false);
 
 const offset = 100;
 
@@ -148,6 +148,9 @@ function handleScroll() {
                     break;
                 case 9:
                     Animation10.value = true;
+                    break;
+                case 10:
+                    Animation11.value = true;
                     break;
             }
         }

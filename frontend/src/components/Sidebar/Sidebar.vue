@@ -13,9 +13,14 @@
             <div id="email">
                 <a href="mailto:feras.aljoudi@gmail.com" title="Email me"><i class="fa-solid fa-envelope"></i>feras.aljoudi@gmail.com</a>
             </div>
-            <div id="phone">
-                <a href="tel:+13062091033" title="Contact me">
-                    <i class="fa-solid fa-phone"></i>306-209-1033
+            <!-- <div id="phone">
+                <a href="tel:+1306#######" title="Contact me">
+                    <i class="fa-solid fa-phone"></i>306-###-####
+                </a>
+            </div> -->
+            <div id="portfolio">
+                <a href="https://aljoudi.ca" target="_blank" title="View my Portfolio">
+                <i class="fa-solid fa-user-large"></i>Portfolio
                 </a>
             </div>
             <div id="linkedin">
@@ -45,7 +50,7 @@
         <SkillBox typeLang="React" innerBoxWidth="80%" :animateStart="ReactAnimation" class="itemDescription" />
         <SkillBox typeLang="Vue" innerBoxWidth="75%" :animateStart="VueAnimation" class="itemDescription" />
         <SkillBox typeLang="WordPress/Figma" innerBoxWidth="80%" :animateStart="WordPress_FigmaAnimation" class="itemDescription" />
-        <SkillBox typeLang="VHDL" innerBoxWidth="65%" :animateStart="VHDL_Animation" class="itemDescription" />
+        <SkillBox typeLang="VHDL" innerBoxWidth="60%" :animateStart="VHDL_Animation" class="itemDescription" />
 
         <div class="sectionHeader">
             <i class="fa-solid fa-chalkboard-user"></i>SOFT SKILLS
