@@ -7,9 +7,12 @@
         <div class="share" @click="shareContent" title="Share My Resume">
             <i class="fas fa-share-alt"></i> Share
         </div>
-        <div class="download" @click="downloadPdf" title="Download My Resume">
+        <a class="download" href="FerasAljoudiResume.pdf" target="_blank" rel="noopener noreferrer" title="View PDF">
             <i class="fas fa-download"></i> Download
-        </div>
+        </a>
+        <!-- <div class="download" @click="downloadPdf" title="Download My Resume">
+            <i class="fas fa-download"></i> Download
+        </div> -->
     </div>
 </template>
 
@@ -40,14 +43,14 @@ const shareContent = async () => {
     }
 };
 
-const downloadPdf = () => {
-    const link = document.createElement("a");
-    link.href = "FerasAljoudiResume.pdf";
-    link.download = "FerasAljoudiResume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-};
+// const downloadPdf = () => {
+//     const link = document.createElement("a");
+//     link.href = "FerasAljoudiResume.pdf";
+//     link.download = "FerasAljoudiResume.pdf";
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// };
 </script>
 
 <style scoped>

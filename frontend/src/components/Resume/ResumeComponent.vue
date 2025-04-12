@@ -40,12 +40,12 @@
 
         <SectionHeader :iconSrc="'fa-solid fa-diagram-project'" titleText="PROJECTS" />
         <div class="section" :class="{ 'fade-in': Animation5 }">
-            <SectionTitle title="IFS DriverAlert, Machine Learning" location="Graduation Project" date="Apr. 2025" />
-            <SectionDescription :list="[{ text:'Developed a real-time driver drowsiness detection system using Python, OpenCV, MediaPipe, and a trained CNN model with TensorFlow/Keras.'}]" />
-            <SectionDescription :list="[{ text:'Optimized the system for deployment on Raspberry Pi 5, ensuring efficient performance and low latency.'}]" />
-            <SectionDescription :list="[{ text:'Integrated hardware components including GPIO-connected switches, USB stereo speakers, and camera for seamless system functionality.'}]" />
-            <SectionDescription :list="[{ text:'Designed a privacy-focused offline solution, processing data in real-time without storing or transmitting user information.'}]" />
-            <SectionDescription :list="[{ text:'Built the system using open-source tools and libraries, showcasing expertise in hardware-software integration, embedded systems, and real-time image processing.'}]" />
+            <SectionTitle title="IFS DriverAlert, AI/ML" location="Graduation Project" date="Apr. 2025" />
+            <SectionDescription :list="[{ text:'Developed a real-time driver drowsiness detection system using Python, OpenCV, and MediaPipe, which was upgraded from an initial CNN model for broader feature detection.'}]" />
+            <SectionDescription :list="[{ text:'Enhanced the system to detect closed eyes, yawning, and looking away using real-time facial landmark tracking.'}]" />
+            <SectionDescription :list="[{ text:'Optimized the system for deployment on Raspberry Pi 5, ensuring efficient performance and low startup latency.'}]" />
+            <SectionDescription :list="[{ text:'Integrated hardware components including GPIO-connected switches, USB stereo speakers, and camera for complete system functionality.'}]" />
+            <SectionDescription :list="[{ text:'Designed a privacy-focused, fully offline solution that processes data in real-time without storing or transmitting user information.'}]" />
             <b><SectionDescription :list="[{ preText: 'To view full details: ', text: 'Capstone', url: 'https://github.com/ferasaljoudi/Capstone' }]" isStar /></b>
         </div>
         <div class="section" :class="{ 'fade-in': Animation6 }">
